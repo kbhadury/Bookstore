@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>World o' Books</title>
+    <link rel=stylesheet href="bookstore.css">
+  </head>
+
+  <body>
+    <div id="dtitle">
+      <h2>World o' Books</h2>
+    </div>
+
+    <div id="dbody">
+      <p style="display:inline;">Returning user?</p>
+      <button style="margin-right: 40px;"><a href="login.html">Log in</a></button>
+
+      <p style="display:inline;">First time here?</p>
+      <button><a href="newuser.html">Create account</a></button>
+
+      <div class="dspacer"></div>
+
+      <p style="display:inline;">Want to leave?</p>
+      <form style="display: inline;" method=POST action=Logout>
+        <input type="submit" value="Logout">
+      </form>
+      
+      <p style="display:inline;">View your cart</p>
+      <form style="display: inline;" method=GET action=MyCart>
+        <input type="submit" value="View cart">
+      </form>
+
+
+      <div class="dspacer"></div>
+      
+      <form method=GET action=Query>
+        <div class="formsection">
+          <b>Choose an author:</b>
+          <input type="checkbox" name="author" value="Tan Ah Teck">Ah Teck
+          <input type="checkbox" name="author" value="Mohammad Ali">Ali
+          <input type="checkbox" name="author" value="Kumar">Kumar
+        </div>
+
+        <div class="formsection">
+          <b>Sort by </b>
+          <select name="order">
+            <option value="author asc">Authors A-Z</option>
+            <option value="title asc">Titles A-Z</option>
+            <option value="price asc">Price ascending</option>
+            <option value="price desc">Price descending</option>
+          </select>
+        </div>
+
+        <input type="submit" value="Search">
+      </form>
+    </div>
+  </body>
+</html>

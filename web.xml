@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app version="3.0"
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+  <servlet>
+    <servlet-name>HelloWorld</servlet-name>
+    <servlet-class>HelloServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>SearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AddToCart</servlet-name>
+    <servlet-class>AddToCartServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CreateAccount</servlet-name>
+    <servlet-class>CreateAcctServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>LogoutServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>Cart</servlet-name>
+    <servlet-class>MyCartServlet</servlet-class>
+  </servlet>
+
+<!-- servlet elements must come first, then servlet-mapping -->
+
+  <servlet-mapping>
+    <servlet-name>HelloWorld</servlet-name>
+    <url-pattern>/sayhello</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/Query</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddToCart</servlet-name>
+    <url-pattern>/AddToCart</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CreateAccount</servlet-name>
+    <url-pattern>/CreateAcct</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Cart</servlet-name>
+    <url-pattern>/MyCart</url-pattern>
+  </servlet-mapping>
+
+</web-app>

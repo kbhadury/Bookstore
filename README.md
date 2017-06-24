@@ -1,12 +1,12 @@
 # Bookstore
 
 ### Overview
-I spent one year in college working in a small IT department on campus.  I had an amazing manager, and he gave me a bunch of side projects to work on.  It started with setting up a web server, and then he had me connect it to a database.  I used [this website]("https://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_HowTo.html") to teach myself, and in their example they create a mock bookstore.  My manager ran with the idea and asked me to add user accounts and a shopping cart feature, and by the end of it all I had my own basic shopping website.
+I spent one year in college working in a small IT department on campus.  I had an amazing manager, and he gave me a bunch of side projects to work on.  It started with setting up a web server, and then he had me connect it to a database.  I used [this website](https://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_HowTo.html) to teach myself, and in their example they create a mock bookstore.  My manager ran with the idea and asked me to add user accounts and a shopping cart feature, and by the end of it all I had my own basic shopping website.
 
 This repository holds all the code that went into it.  The web server and database require certain configuration details which I haven't included, since this code isn't really meant to be copied and run - I mainly created this repo as a souvenir from my time in the IT department.  Feel free to browse around!
 
 ### Specifications
-Operating system: CentOS 7 (via VirtualBox)
+Operating system: CentOS 7 (via VirtualBox, hosted on Windows 7)
 
 Web server: Apache Tomcat 8
 
